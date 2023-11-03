@@ -110,7 +110,6 @@ ol {
 
 .search-form__label-text {
   color: #fff;
-  font-family: Fira Sans Condensed;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -118,22 +117,25 @@ ol {
 }
 
 .search-form__textfield {
+  width: fit-content;
   min-width: 225px;
   color: rgba(255, 255, 255, 0.7);
-  font-family: Fira Sans Condensed;
+  line-height: normal;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  letter-spacing: -1px;
   appearance: none;
   border: none;
   background-color: transparent;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  border-left: 1px solid #1B1919;
+  border-right: 1px solid #1B1919;
 }
 
 .search-form__textfield:active {
   border: 1px solid #fff;
-  background: #545050;
 }
 
 .search-form__textfield:hover {
@@ -327,8 +329,9 @@ ol {
 .content__video-card-thumbnail {
   object-fit: cover;
   object-position: center;
-  max-width: 194px;
-  max-height: 103px;
+  width: 194px;
+  height: 103px;
+  flex-shrink: 0;
 }
 
 .content__video-card-description-container {
