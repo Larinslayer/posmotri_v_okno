@@ -120,11 +120,11 @@ ol {
   width: fit-content;
   min-width: 225px;
   color: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
   line-height: normal;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: -0.5px;
   appearance: none;
   border: none;
   background-color: transparent;
