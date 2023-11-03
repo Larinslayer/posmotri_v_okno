@@ -55,6 +55,7 @@ ol {
 
 .content {
   display: flex;
+  min-height: 534px;
   justify-content: center;
   flex-direction: row;
   gap: 30px;
@@ -246,6 +247,7 @@ ol {
 }
 
 .title {
+  max-height: 210px;
   font-family: "Oswald", sans-serif;
   color: #fff;
   font-weight: 700;
@@ -266,7 +268,6 @@ ol {
 }
 
 .content__card-link {
-  margin: 2px;
   display: block;
   text-decoration: none;
   color: #fff;
