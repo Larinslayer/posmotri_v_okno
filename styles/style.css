@@ -288,7 +288,8 @@ ol {
   margin-bottom: 6px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden
+  overflow: hidden;
+  margin-left: 2px;
 }
 
 .content__video-card-description {
@@ -298,6 +299,7 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: 16.2px;
+  margin-left: 2px;
 }
 
 .content__list-item:not(:last-child) {
